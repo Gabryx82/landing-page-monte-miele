@@ -1,0 +1,19 @@
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+.vercel/
+*.tsbuildinfo
+*.log
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
+
+# Pacchetti di consegna e stato locale di AI Company OS
+.aicos/
+tasks/*.diario.md

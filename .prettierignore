@@ -1,0 +1,14 @@
+# Documentazione e riferimenti già gestiti da AI Company OS
+.aicos/
+docs/
+lessons/
+references/
+tasks/
+/*.md
+!/README.md
+
+**/dist/
+**/build/
+**/coverage/
+.vercel/
+package-lock.json

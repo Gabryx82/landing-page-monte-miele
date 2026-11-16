@@ -1,0 +1,34 @@
+{
+  "name": "landing-page-monte-miele",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "engines": {
+    "node": "^24.0.0",
+    "npm": ">=11"
+  },
+  "scripts": {
+    "dev": "vitest watch",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "eslint . --max-warnings 0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.0.0",
+    "eslint": "^10.15.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.10.1",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.73.0",
+    "vite": "^8.0.0",
+    "vitest": "^5.1.0"
+  }
+}
